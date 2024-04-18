@@ -11,7 +11,7 @@ ___
 
 I recommend using [Strawberry Perl](https://strawberryperl.com/) - simply because it's free - and I have had no issues with it thus far.
 
-I am currently on version 5.26.1.1. with modern Strawberry Perl, you may not need to install extra libraries.  I am currently on version 5.26.1.1, and I needed to install the following:
+I am currently on version 5.26.1.1. with modern Strawberry Perl, you may not need to install extra libraries.  I needed to install the following on this version:
 
 - cpan install Perl::LanguageServer
 - cpan install PadWalker
