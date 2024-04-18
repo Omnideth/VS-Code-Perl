@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "perl",
+            "request": "launch",
+            "name": "Perl Debug - perl -s",
+            "program": "${workspaceFolder}/${relativeFile}",
+            "stopOnEntry": true,
+            //"cwd": "${workspaceFolder}", //can be uncommented to set the working directory to the same folder that the file lives in.
+            "args": ["-test=abc"]
+        },
+        {
+            "type": "perl",
+            "request": "launch",
+            "name": "Perl Debug - Raw Args",
+            "program": "${workspaceFolder}/${relativeFile}",
+            "stopOnEntry": true,
+            //"cwd": "${workspaceFolder}", //can be uncommented to set the working directory to the same folder that the file lives in.
+            "args": ["abc"]
+        },
+        {
+            "type": "perl",
+            "request": "launch",
+            "name": "Perl-Debug-NoArgs",
+            "program": "${workspaceFolder}/${relativeFile}",
+            "stopOnEntry": true
+            //"cwd": "${workspaceFolder}", //can be uncommented to set the working directory to the same folder that the file lives in.
+        }
+    ]
+}
